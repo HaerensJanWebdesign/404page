@@ -1,0 +1,55 @@
+html {
+    background: url(images/pcdead.webp) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden
+}
+body {
+    text-align: center;
+}
+h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-bottom: 55px;
+    margin-top: 40px;
+    font-size: 300%;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    border: solid black;
+    width: 430px;
+    padding-left: 5px;
+    border-radius: 15px;
+    margin-left: 35%;
+    font-size: 120%;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+.button {
+    text-decoration: none;
+    color: #FF3D39;
+    border: solid black;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+    color: #FF3D39;
+    box-shadow: 0px 5px 10px rgb(206, 106, 128);
+}
+.derp {
+   width: 150px;
+   height: 150px;
+   position: fixed;
+   right: 350px;
+   top: 300px;
+
+    animation-name: derpA;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+@keyframes derpA{
+    0% {opacity: 1;right: 350px;top: 300px;}
+    100% {opacity: 0;right: 0;top: 300px;}
+
+}
